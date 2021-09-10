@@ -20,8 +20,14 @@ jar cfev0 .\target\SelectionSort.jar src.SelectionSort .\src\SelectionSort.class
 Latex of report
 ---
 https://www.overleaf.com/read/wmktdktjndnv
+or
+summarize.pdf
 
 
+Colaborators
+---
+Aj. Akara Supratak
+Rujiphart Charatvaraphan 6388012
 
 Honorable mention
 ---
