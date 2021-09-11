@@ -84,7 +84,7 @@ public class ArrayReshape2d {
         for(int i = 0; i < allPossibleCol.size(); i+=1){
             ri = allPossibleCol.get(i);
             ci = allPossibleRow.get(i);
-            System.out.println("Array with shape:" + ri + ", " + ci);
+            System.out.println("Array with shape:" + ri + ", " + ci + "\n");
             printArr2d(arrayReshape2d(a, ri, ci));
         }
 
