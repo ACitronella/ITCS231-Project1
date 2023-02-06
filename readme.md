@@ -9,7 +9,7 @@ Where
 - row is number of row of 2d array that you want to reshape. (Optional)  
 - column is number of column of 2d array that you want to reshape. (Optional)  
 
-When run ArrayReshape2d, It will try to reshape input array every permuation that posible.
+When run ArrayReshape2d, It will try to reshape input array every permuation that posible.  
 For example, array that has shape (4, 2) will transform to (8, 1), (4, 2), (2, 4), (1, 8).
 
 ## BinarySearch
@@ -31,9 +31,9 @@ This will randomly create list with size 50 and sort it.
 
 ```
 javac ./src/*.java 
-jar cfe ./target\ArrayReshape2d.jar src.ArrayReshape2d ./src/ArrayReshape2d.class 
-jar cfe ./target\BinarySearch.jar src.BinarySearch ./src/BinarySearch.class ./src/SelectionSort.class
-jar cfe ./target\SelectionSort.jar src.SelectionSort ./src/SelectionSort.class
+jar cfe ./target/ArrayReshape2d.jar src.ArrayReshape2d ./src/ArrayReshape2d.class 
+jar cfe ./target/BinarySearch.jar src.BinarySearch ./src/BinarySearch.class ./src/SelectionSort.class
+jar cfe ./target/SelectionSort.jar src.SelectionSort ./src/SelectionSort.class
 ```
 This is not necessary but if you want to verified that current jar file and code are the same. Use these commands.
 
@@ -43,7 +43,7 @@ Please read report [`summarize.pdf`](https://github.com/ACitronella/ITCS231-Proj
 
 ## Latex of report
 
-[Overleaf](https://www.overleaf.com/read/wmktdktjndnv  )
+[Overleaf](https://www.overleaf.com/read/wmktdktjndnv)
 
 
 ## Colaborators
@@ -53,13 +53,13 @@ Please read report [`summarize.pdf`](https://github.com/ACitronella/ITCS231-Proj
 
 ## Honorable mention document
 
-- https://stackoverflow.com/questions/4597866/java-creating-jar-file
-- https://docs.oracle.com/javase/tutorial/deployment/jar/build.html
-- https://docs.oracle.com/javase/tutorial/deployment/jar/appman.html
+- ["Java creating .jar file" question on Stackoverflow](https://stackoverflow.com/questions/4597866/java-creating-jar-file)
+- ["Creating a JAR File" JAVA SE official tutorial](https://docs.oracle.com/javase/tutorial/deployment/jar/build.html)
+- ["Setting an Application's Entry Point" JAVA SE official tutorial](https://docs.oracle.com/javase/tutorial/deployment/jar/appman.html)
 
 ## This repo
 
-- https://github.com/ACitronella/ITCS231-Project1
+- [Github](https://github.com/ACitronella/ITCS231-Project1)
 
 
 
